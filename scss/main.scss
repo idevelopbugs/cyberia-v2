@@ -1,0 +1,15 @@
+@import "Partials/variables";
+
+nav {
+	background: $color-darkblue;
+	
+	/*
+	.headerlogo {
+		height: 38px;
+		width: 38px;
+	}
+	*/
+}
+.navbar-light, .navbar-toggler, .navbar-toggler:hover{
+    border: 0;
+}	
