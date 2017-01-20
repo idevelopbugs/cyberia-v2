@@ -36,7 +36,8 @@ nav {
   .navbar-collapse {
     background-color: #89bdd3;
     margin-top: 0;
-    top: 0; }
+    top: 0;
+    position: relative; }
 
   /*------------ Hero img ---------*/
   .hero {

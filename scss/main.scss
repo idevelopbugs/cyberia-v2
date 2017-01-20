@@ -37,13 +37,14 @@ nav {
 
 @media screen and (min-width: 1024px){
 
-/*-------------Navbar------------*/
+	/*-------------Navbar------------*/
 	.navbar-collapse{
 		background-color: $color-darkblue;
 		margin-top: 0;
 		top: 0;
+		position: relative;
 	}
-/*------------ Hero img ---------*/
+	/*------------ Hero img ---------*/
 	.hero{
 		position: relative;	
 		width: 100%;	
