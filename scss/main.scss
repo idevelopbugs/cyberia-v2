@@ -1,10 +1,5 @@
 @import "Partials/variables";
 
-.anchor {
- padding-top: 60px;
-  width: 100%;
-}
-
 /*------------- Navbar -----------------------*/
 nav {
 	background: $color-darkblue;
@@ -33,6 +28,9 @@ button:focus{
 	background-color: $color-lightblue;
 	margin-top: 52px;
 	z-index: 4;
+}
+.anchor {
+	padding-top: 60px;
 }
 /*------------ Hero img ---------*/
 

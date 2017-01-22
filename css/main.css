@@ -1,8 +1,4 @@
 @charset "UTF-8";
-.anchor {
-  padding-top: 60px;
-  width: 100%; }
-
 /*------------- Navbar -----------------------*/
 nav {
   background: #89bdd3;
@@ -31,6 +27,9 @@ button:focus {
   background-color: #9ad3de;
   margin-top: 52px;
   z-index: 4; }
+
+.anchor {
+  padding-top: 60px; }
 
 /*------------ Hero img ---------*/
 /*----------ANV├äNDS INTE ?-------- 
