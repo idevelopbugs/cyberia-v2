@@ -1,5 +1,16 @@
 @import "Partials/variables";
 
+/*------------- Typography -------------------*/
+.blue-text{
+	color: $color-lightblue;
+}
+h1, h2, h3, h4{
+	font-family: $head-font;
+	font-weight: bold;
+}
+body{
+	font-family: $base-font;
+}
 /*------------- Navbar -----------------------*/
 nav {
 	background: $color-darkblue;
@@ -34,16 +45,6 @@ button:focus{
 }
 /*------------ Hero img ---------*/
 
-/*----------ANVÄNDS INTE ?-------- 
-.extra-jumbo{
-   color:black;
-   background:url(../images/front1280.jpg);
-   background-size: 100%;
-   height:10;
-   background-repeat: no-repeat;
-   border: 2px solid black;
-}
-*/
 .hero{
 	margin-top: 52px;
 }
@@ -63,7 +64,7 @@ button:focus{
   justify-content: center;
 }
 
-/*------------- Desktop Media Query ---------------------*/
+/*------------- Desktop Media Query -------------------*/
 
 @media screen and (min-width: 1024px){
 
@@ -83,12 +84,6 @@ button:focus{
 	}
 	/*------------ Hero img ---------*/
 
-	/*       Påverkar inget ?
-	.hero{
-		position: relative;	
-		width: 100%;	
-	}
-	*/
 	.hero-text{
 		position: absolute;
 		width: 1200px;
@@ -107,7 +102,6 @@ button:focus{
 	.hero-text p{
 		font-family: $head-font;
 		font-size: 30px;
-		font-weight: bold;
 		text-align:center;
 		padding: 0 100px;
 	}
@@ -123,13 +117,13 @@ button:focus{
 		height: 506px;
 	}
 /*--------------PORTFOLIO-------------------------------*/
- .dark-blue {
-  	width: 269px;
-  	height: 364px;		
-  	background-color: $color-lightblue; }
-  .light-blue {
-  	width: 269px;
-  	height: 364px;		
-  	background-color: $color-lightgrey; 
+ 	.dark-blue {
+	  	width: 269px;
+	  	height: 364px;		
+	  	background-color: $color-lightblue; }
+  	.light-blue {
+	  	width: 269px;
+	  	height: 364px;		
+	  	background-color: $color-lightgrey; 
   }	
 }
