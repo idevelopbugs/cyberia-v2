@@ -49,12 +49,12 @@ button:focus{
 }
 /*--------------PORTFOLIO-------------------------------*/
  .dark-blue {
-  	width: 269px;
-  	height: 364px;		
+  	width: 134px;
+  	height: 182px;		
   	background-color: $color-lightblue; }
   .light-blue {
-  	width: 269px;
-  	height: 364px;		
+  	width: 134px;
+  	height: 182px;		
   	background-color: $color-lightgrey; 
   }
 .child-vertical-center{
@@ -122,4 +122,14 @@ button:focus{
 		/* height: 576px; */
 		height: 506px;
 	}
+/*--------------PORTFOLIO-------------------------------*/
+ .dark-blue {
+  	width: 269px;
+  	height: 364px;		
+  	background-color: $color-lightblue; }
+  .light-blue {
+  	width: 269px;
+  	height: 364px;		
+  	background-color: $color-lightgrey; 
+  }	
 }
