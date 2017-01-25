@@ -93,8 +93,8 @@ button:focus{
 
   .map
   {
-  		width:350px;
-  		height: 350px;
+  		width:200px;
+  		height: 200px;
   }
 
  #map{
@@ -165,32 +165,26 @@ button:focus{
 	  	width: 269px;
 	  	height: 364px;		
 	  	background-color: $color-lightgrey; 
-  }	
+  }
+}
+
+/*--------------MEDIA Query For Desktop-------------------------------*/
+@media screen and (min-width: 769px){
+	
+    .map{
+    	width: 350px;
+    	height: 350px;
+    }
 
 }
+
 
 /*--------------MEDIA Query For Ipad-------------------------------*/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 321px) and (max-width: 768px){
 	
     .map{
-    	width: 250px !important;
-    	height: 250px !important;
-    }
-
-}
-
-/*------------------MEDIA Query For Mobile---------------------------*/
-@media screen and (max-width: 320px){
-	
-    .map{
-    	width: 200px !important;
-    	height: 200px !important;
-    }
-
-    .map-icon{
-  
-        margin-top: 40px;
-
+    	width: 250px;
+    	height: 250px;
     }
 
 }
