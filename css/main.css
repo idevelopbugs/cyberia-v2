@@ -117,6 +117,17 @@ button:focus {
     width: 269px;
     height: 364px;
     background-color: #e3e3e3; } }
+@media screen and (max-width: 768px) {
+  .map {
+    width: 250px !important;
+    height: 250px !important; } }
+@media screen and (max-width: 320px) {
+  .map {
+    width: 200px !important;
+    height: 200px !important; }
+
+  .map-icon {
+    margin-top: 40px; } }
 /*--------------Kontakta-------------------------------*/
 .btn {
   width: 100%;
@@ -131,6 +142,10 @@ input[type=text], input[type=tel], input[type=email] {
 
 .textarea {
   border-radius: 0; }
+
+.map {
+  width: 350px;
+  height: 350px; }
 
 #map {
   border-radius: 50%;
