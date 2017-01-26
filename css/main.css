@@ -99,6 +99,9 @@ input[type=text], input[type=tel], input[type=email] {
   width: 100%;
   height: 100%; }
 
+.headerlogo {
+  display: none; }
+
 /*------------- Desktop Media Query -------------------*/
 @media screen and (min-width: 1024px) {
   /*-------------Navbar------------*/
@@ -111,6 +114,9 @@ input[type=text], input[type=tel], input[type=email] {
       margin-right: 2em; }
     .navbar-collapse a:hover {
       background-color: #9ad3de; }
+
+  .headerlogo {
+    display: inline-block; }
 
   /*------------ Hero img ---------*/
   .hero-text {
@@ -154,9 +160,8 @@ input[type=text], input[type=tel], input[type=email] {
   .light-blue {
     width: 269px;
     height: 364px;
-    background-color: #e3e3e3; } }
-/*--------------MEDIA Query For Desktop-------------------------------*/
-@media screen and (min-width: 1024px) {
+    background-color: #e3e3e3; }
+
   .child-vertical-center {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -204,10 +209,9 @@ input[type=text], input[type=tel], input[type=email] {
     height: 250px; }
 
   .herohr {
-    display: none !important; } }
-/*--------------MEDIA Query For Mobile------------------------------*/
-@media screen and (min-width: 240px) and (max-width: 500px) {
+    display: none !important; }
+
   .headerlogo {
-    display: none !important; } }
+    display: inline-block; } }
 
 /*# sourceMappingURL=main.css.map */
