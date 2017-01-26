@@ -9,6 +9,13 @@ h1, h2, h3, h4 {
 body {
   font-family: "Lato", "Arial", sans-serif; }
 
+/* ------------ Styling ----------------------*/
+.orangeline {
+  height: 0.1em;
+  width: 40%;
+  background-color: #FF9000;
+  border-radius: 0.7em; }
+
 /*------------- Navbar -----------------------*/
 nav {
   background: #89bdd3;
@@ -57,8 +64,15 @@ button:focus {
   background-color: #e3e3e3; }
 
 .child-vertical-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 /*--------------Kontakta-------------------------------*/
@@ -142,14 +156,58 @@ input[type=text], input[type=tel], input[type=email] {
     height: 364px;
     background-color: #e3e3e3; } }
 /*--------------MEDIA Query For Desktop-------------------------------*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
+  .child-vertical-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .child-vertical-center a {
+      padding-left: 5px; }
+
   .map {
     width: 350px;
-    height: 350px; } }
+    height: 350px; }
+
+  .herohr {
+    display: none !important; } }
 /*--------------MEDIA Query For Ipad-------------------------------*/
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+  .child-vertical-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .child-vertical-center a {
+      padding-left: 5px; }
+
   .map {
     width: 250px;
-    height: 250px; } }
+    height: 250px; }
+
+  .herohr {
+    display: none !important; } }
+/*--------------MEDIA Query For Mobile------------------------------*/
+@media screen and (min-width: 240px) and (max-width: 500px) {
+  .headerlogo {
+    display: none !important; } }
 
 /*# sourceMappingURL=main.css.map */
