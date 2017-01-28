@@ -24,6 +24,9 @@ nav {
 button:focus {
   outline: none; }
 
+a:active, a:hover, a:visited {
+  color: black; }
+
 .navbar-brand {
   color: black;
   font-family: "Lato", "Arial", sans-serif;

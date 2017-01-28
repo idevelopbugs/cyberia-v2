@@ -27,6 +27,9 @@ nav {
 button:focus{
 	outline: none;
 }
+a:active, a:hover, a:visited{
+	color: black;
+}
 .navbar-brand{
 	color: black;
 	font-family: $base-font;
@@ -79,11 +82,8 @@ button:focus{
           justify-content: center;
 }
 
-
   /*--------------Kontakta-------------------------------*/
-
   .btn{
-
     width: 100%;
     background-color: $color-lightblue;
     border:0;
@@ -92,37 +92,29 @@ button:focus{
   }
 
   input[type=text], input[type=tel],input[type=email]
-
   {
-       border-radius:0;
-       height: 60px;
+    border-radius:0;
+    height: 60px;
   }
 
+	.textarea{
+   		border-radius:0;     
+ 	}
 
-   .textarea
+	.map{
+	  	width:200px;
+	  	height: 200px;
+  	}
 
-  {
-       border-radius:0;
-      
-  }
-
-  .map
-  {
-  		width:200px;
-  		height: 200px;
-  }
-
- #map{
-     
-      border-radius: 50%;
-      width:100%;
-      height:100%
- }
+	#map{  
+	    border-radius: 50%;
+	    width:100%;
+	    height:100%
+ 	}
 
 	.headerlogo{
-	display: none;
-}
-
+		display: none;
+	}
 
 /*------------- Desktop Media Query -------------------*/
 
@@ -141,8 +133,8 @@ button:focus{
 		a:hover{
 			background-color: $color-lightblue;
 		}
-		}
-		.headerlogo {
+	}
+	.headerlogo {
 		display: inline-block;
 	}
 	/*------------ Hero img ---------*/
